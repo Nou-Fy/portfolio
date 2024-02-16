@@ -1,0 +1,21 @@
+*{
+    font-weight: normal;
+    color: black;
+    background-color: bisque;
+}
+
+p{
+    font-size: medium;
+}
+
+.link{
+    color: blue;
+}
+
+#header{
+    background-color: darkgoldenrod;
+}
+
+table{
+    border: 3px rgb(08, 07, 08) solid;
+}
