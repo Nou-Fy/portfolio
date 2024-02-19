@@ -1,21 +1,138 @@
-*{
-    font-weight: normal;
+.root{
+    width: auto;
+    height: auto;
+    padding: 1rem;
+    background-image: linear-gradient(315deg,  #eeaee9 25%, #94dde9 65%);
+    border-radius: 0.5%;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.2fr 1fr 0.2fr;
+}
+
+body{
+    margin: 0;
+ 
+}
+
+.body_div{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 0.30fr 0.70fr;
+    padding: 10px;
+}
+
+
+
+header{
+    width: auto;
+    height: auto;
+}
+
+footer{
+    width: auto;
+    height: auto;
+    position: static;
+}
+
+.tete{
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #b47b44;
+    padding: 10px;
+    border: #0f1e32 solid;
+
+}
+
+.visage{
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #0f1e32;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+
+}
+
+#formation{
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(171, 243, 56);
+}
+
+.corps{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
     color: black;
-    background-color: bisque;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
 }
 
-p{
+.titre{
+    font-size: 500%;
+    font-weight: bold;
+    color: #fafafa;
+    text-align: center;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
     font-size: medium;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    padding-right: 1%;
+    grid-column-gap: 50px;
+}
+.menu a:hover{
+    display: flex;
+    flex-direction: row;
+    font-size: medium;
+    color: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+    padding-right: 1%;
+    padding: 0px 0px 10px 10px;
+    margin-left: 5px;
+    
 }
 
-.link{
-    color: blue;
+.menu a{
+    display: flex;
+    flex-direction: row;
+    font-size: medium;
+    color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin-left: 5px;
 }
 
-#header{
-    background-color: darkgoldenrod;
+#photo-cv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: top;
 }
 
-table{
-    border: 3px rgb(08, 07, 08) solid;
+#photo-cv img{
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 545px;
+    border-radius: 2%;
+}
+
+.about{
+    font-size: 4vmin;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.space{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
 }

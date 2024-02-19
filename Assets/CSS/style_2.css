@@ -1,0 +1,54 @@
+.root{
+    width: 100w;
+    height: 100vh;
+    background-image: linear-gradient(315deg, #0db608 0%,  #2e00fc 75%);
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.2fr 1fr 0.2fr;
+}
+
+.parent {
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: 0.55fr;
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+}
+
+
+header{
+    background-image: linear-gradient(315deg, #0db608 0%,  #2e00fc 75%);
+}
+
+header nav ul{
+    list-style-type: none;
+    color: #ffffff;
+}
+
+header nav ul li:hover{
+    list-style-type: none;
+    color: #ff0000;
+}
+
+section{
+        background-image: linear-gradient(315deg, #ff000d 0%,  #e6d70fe8 75%);
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+}
+
+footer{
+    background-image: linear-gradient(315deg, #ffffff 0%,  #2e00fc 75%);
+}
+
+article{
+    border: 1px #08aab6 solid;
+    margin: 10px 10px 10px 10px;
+    padding: 3px 3px 3px 3px;
+}
+
+article:hover{
+    border: 1px #f30707 solid;
+}

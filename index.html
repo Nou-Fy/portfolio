@@ -1,88 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Egg-head</title>
-        <link rel="stylesheet" href="./Assets/CSS/style.css">
-    </head>
-    <body>
-        <header>
-            <h1>
-                CURRUCULIUM VITAE
-                <ul>
-                    <li><a href="#formation">formation</a></li>
-                    <li><a href="#experience">competence</a></li>
-                </ul>
-            </h1>
-        </header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Egg-head</title>
+    <link rel="stylesheet" href="./Assets/CSS/style.css" />
+    <link
+      rel="stylesheet"
+      href="./Assets/fontawesome-free-6.5.1-web/css/all.css" />
+  </head>
+  <body>
+    <div class="root">
+      <header>
+        <nav>
+          <div class="menu">
+            <div>
+              <a href="./page/about.html">
+                <i class="fa-regular fa-address-card"></i>
+                A propos
+              </a>
+            </div>
 
-        <section>
-            <img src="./Assets/Images/images.jpeg">
-            <p>
-                <section id="formation">
-                    <h1>FORMATIONS ET DIPLOMES</h2>
-                    <h5></h5>
-                    <h3>
-                        <p>2023 3mois Concepteur Développeur d’Applications
-                            Numériques</p>
-                        <h5>Inclusive Academy</h5>
-                    </h3>
-                    <h5></h5>
-                    <p>2019 MIER II Master d’Ingénierie en Energie Renouvelable</p>
-                    <h5>Université d’Antananarivo</h5>
-                </h3>
-                <h5></h5>
+            <div>
+              <a href="#Formation">
+                <i class="fa-solid fa-person-circle-check"></i>
+                Formation
+              </a>
+            </div>
 
-                <p>2017 LIER III Licence d’Ingénierie en Energie
-                    Renouvelable</p>
-                <h5>Université d’Antananarivo</h5>
-            </h3>
-        </section><h3>
+            <div>
+              <a href="#Experience">
+                <i class="fa-solid fa-user-graduate"></i>
+                Competence
+              </a>
+            </div>
+          </div>
+          <div class="titre">CURRUCULIUM VITAE</div>
+        </nav>
+      </header>
 
-            <section id="experience">
-                <h1>Expériences professionnelles</h1>
-                <h5></h5>
-                <h3>
-                    <p>Janvier 2024 Conception et développement d'ine plateforme
-                        desktop "Legofruit" :</p>
-                    <p>
-                        <p>Legofruit est une plateforme de mis en relation des
-                            supermarchés et les producteurs de fruit et légume
-                            local.
-                            En priorisant la relation entre le supermarché et
-                            les producteurs local cela a pour but de minimiser
-                            l’empreinte
-                            carbone et de limiter les intermédiaires sur
-                            l’échange entre les deux parties.</p>
-                        <p>• Analyse des besoins</p>
-                        <p>• Conception UML</p>
-                        <p>• Rédaction des spécifications fonctionnelles et
-                            techniques</p>
-                        <p>• Développement</p>
-                        <p>• Les outils utilisés :</p>
-                        <table>
-                            <tr>
-                                <td>Front-End :</td>
-                                <td>.Net</td>
-                            </tr>
-                            <tr>
-                                <td>Back-end :</td>
-                                <td>C#</td>
-                            </tr>
-                        </table>
-                    </p>
-
-                </h3>
-                <h5></h5>
-            </section>
-
-        </p>
-
-        <div class="footer">
-            <a class=".link" href="./page/about.html">About</a>
-            <p>noméro : +261 34 84 924 95</p>
-            <a class=".link" href="https://ww.google.com">plus d'information</a>
+      <section class="body_div">
+        <div id="photo-cv">
+          <img
+            src="./Assets/Images/416150677_929646922277501_6611594959841441288_n.jpg" />
         </div>
-    </body>
+
+        <div class="space">
+          <section>
+            <div>
+              <p class="tete">FORMATIONS ET DIPLOMES</p>
+            </div>
+            <div class="visage">
+              2023 3mois Concepteur Développeur d’Applications Numériques
+            </div>
+            <div class="corps">Inclusive Academy</div>
+            <div class="visage">
+              2019 MIER II Master d’Ingénierie en Energie Renouvelable
+            </div>
+            <div class="corps">Université d’Antananarivo</div>
+            <div class="visage">
+              2017 LIER III Licence d’Ingénierie en Energie Renouvelable
+            </div>
+            <div class="corps">Université d’Antananarivo</div>
+          </section>
+
+          <section>
+            <p class="tete">EXPERIENCE PROFESSIONNELLE</p>
+            <p class="visage">
+              Janvier 2024 Conception et développement d'ine plateforme desktop
+              "Legofruit" :
+            </p>
+            <p class="corps">
+              Legofruit est une plateforme de mis en relation des supermarchés
+              et les producteurs de fruit et légume local. En priorisant la
+              relation entre le supermarché et les producteurs local cela a pour
+              but de minimiser l’empreinte carbone et de limiter les
+              intermédiaires sur l’échange entre les deux parties.
+            </p>
+            <ul id="comp">
+              <li class="corps">Analyse des besoins</li>
+              <li class="corps">Conception UML</li>
+              <li class="corps">
+                Rédaction des spécifications fonctionnelles et techniques
+              </li>
+              <li class="corps">Développement</li>
+              <li class="corps">
+                Les outils utilisés :
+                <ul>
+                  <li class="corps">Front-End : .net</li>
+                  <li class="corps">Back-end : C#</li>
+                </ul>
+              </li>
+            </ul>
+          </section>
+        </div>
+
+      </section>
+      <footer>
+        <nav class="menu">
+          <a href="../index.html">
+            Cururculium Vitae
+          </a>
+          <a href>
+            <i class="fa-solid fa-phone"></i>
+            +261 34 84 924 95
+          </a>
+          <a href="rakotnntsoina@gmail.com">
+            <i class="fa-solid fa-envelope"></i>
+            E-mail
+          </a>
+          <a href="https://web.facebook.com/nantsoina.harvelorakoto/">
+            <i class="fa-brands fa-facebook"></i>
+            Facebook
+          </a>
+          <a
+            href="www.linkedin.com/in/nantsoinaharimanana-rakotoarivelo-035701185">
+            <i class="fa-brands fa-linkedin"></i>
+            Linkedin
+          </a>
+          <a href="https://ww.google.com">
+            <i class="fa-solid fa-circle-info"></i>
+            d'information
+          </a>
+        </nav>
+      </footer>
+    </div>
+  </body>
 </html>
