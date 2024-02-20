@@ -1,59 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-    <div>
-        <header>
+<div>
+    <header>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
         <link rel="stylesheet" href="../Assets/CSS/style.css">
         <link rel="stylesheet" href="../Assets/fontawesome-free-6.5.1-web/css/all.css">
+        <link rel="stylesheet" href="../Assets/bootstrap-5.3.2-dist/css/bootstrap.css">
+        <script src="text/javascript" src="../Assets/bootstrap-5.3.2-dist/js/bootstrap.js"></script>
     </header>
+
     <body class="root">
         <header>
-            <nav class="titre">
-                <a href="../index.html">
-                    ACCUEIL
-                </a>
-            </nav>
+            <div class="d-flex">
+                <div class="p-2 w-100">
+                    <div class="text-center">
+                        <p class="fs-1">A propos</p>
+                    </div>
+                </div>
+                <div class="p-2 flex-shrink-1">
+                    <ul class="nav justify-content-end">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../index.html">ACCUEIL</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
         </header>
 
         <section class="body_div">
             <div class="photo-cv">
-                <img
-                    src="../Assets/Images/416150677_929646922277501_6611594959841441288_n.jpg" width="600px" height="825px">
+                <img src="../Assets/Images/416150677_929646922277501_6611594959841441288_n.jpg" class="img-fluid">
                 </img>
             </div>
-            <div>
-                <ul class="corps">
-                    <li><span class="tete">Nom :</span>RAKOTOARIVELO</li>
-                    <li><span class="tete">Prenom : </span>Nantsoinaharimanana Nomena Tiavina</li>
+            <div class="corps">
+                <ul>
+                    <li>
+                        <span class="tete">
+                            RAKOTOARIVELO
+                        </span>
+                    </li>
+                    <li>
+                        <span class="tete">
+                            Nantsoinaharimanana Nomena Tiavina
+                        </span>
+                    </li>
                 </ul>
-                <p class="about">
-                    Passionné par le monde du numérique, avec mon parcours en Énergétique
-          dans le domaine des énergies renouvelables à l'Université
-          d'Antananarivo, j'ai pu me familiariser avec plusieurs langages de
-          programmation tels que C, Turbo Pascal, Arduino. Pendant la
-          réalisation de mon mémoire de fin d'étude, j'ai manipulé Python pour
-          une Machine Learning dans le cadre de la réalisation d'une étude
-          d'exploitation d'une centrale hydraulique pour une électrification
-          rurale. Après mes études, j'ai intégré une société qui a pour but de
-          digitaliser les données géographiques. J'y suis resté deux ans en
-          occupant le poste de dessinateur spécialisé et préparateur de données.
-          J'ai utilisé des outils automatiques développés par mes collègues, ce
-          qui m'a donné l'envie de vouloir apprendre à créer des applications
-          numériques. Voilà comment est venue l'idée de me reconvertir et le
-          choix d'Inclusiv Academy pour m'y accompagner.
-                </p>
+                <div>
+                    <p class="fs-4">
+                        Passionné par le monde du numérique, avec mon parcours en Énergétique
+                        dans le domaine des énergies renouvelables à l'Université
+                        d'Antananarivo, j'ai pu me familiariser avec plusieurs langages de
+                        programmation tels que C, Turbo Pascal, Arduino. Pendant la
+                        réalisation de mon mémoire de fin d'étude, j'ai manipulé Python pour
+                        une Machine Learning dans le cadre de la réalisation d'une étude
+                        d'exploitation d'une centrale hydraulique pour une électrification
+                        rurale. Après mes études, j'ai intégré une société qui a pour but de
+                        digitaliser les données géographiques. J'y suis resté deux ans en
+                        occupant le poste de dessinateur spécialisé et préparateur de données.
+                        J'ai utilisé des outils automatiques développés par mes collègues, ce
+                        qui m'a donné l'envie de vouloir apprendre à créer des applications
+                        numériques. Voilà comment est venue l'idée de me reconvertir et le
+                        choix d'Inclusiv Academy pour m'y accompagner.
+                    </p>
+                </div>
             </div>
 
         </section>
 
         <footer>
-            <nav class="menu">
+            <nav class=" menu">
                 <a href="../index.html">
                     Cururculium Vitae
                 </a>
-                <p><i class="fa-solid fa-phone"></i>+261 34 84 924 95</p>
+                <a href="">
+                    <i class="fa-solid fa-phone"></i>+261 34 84 924 95
+                </a>
                 <a href="rakotnntsoina@gmail.com">
                     <i class="fa-solid fa-envelope"></i>
                     E-mail
@@ -66,13 +90,14 @@
                     <i class="fa-brands fa-linkedin"></i>
                     Linkedin
                 </a>
-                <a class=".link" href="https://ww.google.com">
+                <a href="https://ww.google.com">
                     <i class="fa-solid fa-circle-info"></i>
                     d'information
                 </a>
             </nav>
-    </footer>
+        </footer>
 
     </body>
 </div>
+
 </html>

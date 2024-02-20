@@ -40,8 +40,6 @@ footer{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #b47b44;
     padding: 10px;
-    border: #0f1e32 solid;
-
 }
 
 .visage{
@@ -61,12 +59,12 @@ footer{
 }
 
 .corps{
-    font-size: 30px;
     font-family: 'Times New Roman', Times, serif;
     color: black;
     margin-top: 10px;
     margin-bottom: 10px;
     padding: 10px;
+    list-style-type:none;
 }
 
 .titre{
@@ -83,20 +81,23 @@ footer{
     color: black;
     justify-content: center;
     align-items: center;
-    padding-right: 1%;
-    grid-column-gap: 50px;
+    padding-right: 10px;
+    grid-column-gap: 5px;
 }
-.menu a:hover{
+.menu a i{
+    padding-right: "5px";
+}
+
+#menu a{
     display: flex;
     flex-direction: row;
     font-size: medium;
-    color: rgb(255, 255, 255);
+    color: #ffffff;
     justify-content: center;
     align-items: center;
-    padding-right: 1%;
-    padding: 0px 0px 10px 10px;
+    text-decoration: none;
+    width: auto;
     margin-left: 5px;
-    
 }
 
 .menu a{
@@ -107,8 +108,20 @@ footer{
     justify-content: center;
     align-items: center;
     text-decoration: none;
+    width: auto;
     margin-left: 5px;
 }
+
+.menu a:hover{
+    display: flex;
+    flex-direction: row;
+    font-size: medium;
+    color: rgb(18, 0, 175);
+    justify-content: center;
+    align-items: center;
+    
+}
+
 
 #photo-cv{
     display: flex;
@@ -134,5 +147,16 @@ footer{
 .space{
     display: flex;
     flex-direction: column;
-    padding-bottom: 50px;
+    padding-bottom: 10px;
+}
+
+.angry-grid{
+   display: grid; 
+
+   grid-template-rows: 0.4fr 1fr 0.2fr;
+   grid-template-columns: 0.4fr 1fr;
+   
+   gap: 0px;
+   height: 100%;
+   
 }
