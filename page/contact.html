@@ -6,43 +6,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../Assets/bootstrap-5.3.2-dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="../Assets/bootstrap-icons-1.11.3/back.svg">
     <script type="text/javascript" src="../Assets/bootstrap-5.3.2-dist/js/bootstrap.js" defer>
     </script>
 </head>
 
-<body class="angry-grid">
-    <div class="container" style="margin: auto;">
-        <header class="text-center" style="background-color: thistle;">
-            <div class="d-inline-flex p-2" style="text-align: center;">
-                <p style="font-size: 50px;">Bienvenu chez RAKOTOARIVELO</p>
+<body class="angry-grid container-fluid" background="../Assets/Images/fond-mur-stuc-texture-vert-frais.jpg ">
+    <header class="text-center">
+        <div class="d-flex p-2 justify-content-center">
+            <div>
+                <i class="fa-light fa-house-user fa-xl" style="color: #ba1717;"></i>
             </div>
-        </header>
+            <div>
+                <p style="font-size: 50px; color: #ba1717;">
+                    Bienvenue chez RAKOTOARIVELO
+                </p>
+            </div>
 
-        <section style="display: flex; flex-direction: row;">
-            <div style="display: flex; flex-direction: column;">
-                <div style="display: flex; align-items: center; justify-content: center;">
-                    <div class="container">
-                        <p>
-                            Merci de m'écrire pour me contacter
+
+        </div>
+    </header>
+
+    <section style="display: flex; flex-direction: row; margin-top: 20fr; margin-bottom: 20fr;"
+        class="container justify-content-center align-content-center">
+        <div class="container-fluid"
+            style="display: flex; flex-direction: column; grid-template-columns: 50px; justify-content: center;">
+            <div class="d-flex justify-content-center align-items-center">
+                <div>
+                    <div class="container-fluid">
+                        <p class="fs-1">
+                            Merci d'écrire pour me contacter
                         </p>
-
                     </div>
                 </div>
-                <div class="form-floating">
+                <div class="form-floating ">
                     <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
-                        style="height: 200px; width: 500px;">
-                </textarea>
-                    <label for="floatingTextarea2">Votre Message</label>
-                </div>
+                        style="height: 400px; width: 600px;"></textarea>
+                    <label for="floatingTextarea2">Message</label>
+                    <div class="d-flex justify-content-center">
+                        <div class="d-flex justify-content-center align-items-center me-3">
+                            <div>
+                                <a href="../index.html">
+                                    <p>
+                                        ACCUEIL
+                                    </p>
+                                </a>
+                            </div>
 
-                <div style="margin: 50px 25px 0px 0px;">
-                    <button class="btn btn-primary" type="submit">CONTACTER</button>
+                            <div>
+                                <button type="button" class="btn btn-primary btn-lg mt-3">
+                                    CONTACTER
+                                </button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </section>
-
-
-    </div>
+        </div>
+    </section>
 </body>
 
 </html>

@@ -98,6 +98,7 @@ footer{
     text-decoration: none;
     width: auto;
     margin-left: 5px;
+    padding-right: "5px";
 }
 
 .menu a{
@@ -158,5 +159,6 @@ footer{
    
    gap: 0px;
    height: 100%;
-   
+
+   background-color: rgb(255, 147, 5); 
 }
